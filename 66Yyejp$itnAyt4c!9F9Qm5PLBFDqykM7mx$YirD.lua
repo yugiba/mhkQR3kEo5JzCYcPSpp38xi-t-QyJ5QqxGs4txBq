@@ -105,7 +105,7 @@ local function createControlButton()
     button.Name = "ToggleBlackHoleButton"
     button.Size = UDim2.new(0, 200, 0, 50)
     button.Position = UDim2.new(0.5, -100, 0, 100)
-    button.Text = "Desativar Buraco Negro"
+    button.Text = "Deactivate Black Hole"
     button.Parent = screenGui
 
     button.MouseButton1Click:Connect(function()
