@@ -113,7 +113,7 @@ local function createControlButton()
         if blackHoleActive then
             button.Text = "Deactivate Black Hole"
         else
-            button.Text = "Ativate Black hole"
+            button.Text = "Activate Black hole"
         end
     end)
 end
